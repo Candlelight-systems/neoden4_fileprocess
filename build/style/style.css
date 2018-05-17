@@ -1,0 +1,23 @@
+tr, td {
+	font-size: 11px !important;
+}
+
+.highlighted td {
+	background-color: yellow
+}
+
+table {
+	table-layout:fixed;
+	width: 500px;
+}
+td {
+
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    width: 80px;
+}
+
+.action {
+	margin-bottom: 10px;
+}

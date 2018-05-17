@@ -1,0 +1,174 @@
+[
+	{
+		"actionProps": {},
+		"actionType": "ChangePosition"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Comment",
+			"filterValue": "N-CHANNEL-MOS",
+			"columnName": "Comment",
+			"columnValue": "MOSFET-NCHANNELAO3404A"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Group",
+			"filterValue": "^(2|3|4|5|6|7|8|9|10|11|12|13|14|15|16)$"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "CHIPLED",
+			"columnValue": "LED-0603",
+			"columnName": "Footprint"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "SO(I|P)"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Designator",
+			"filterValue": "^U"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterValue": "IC*",
+			"filterColumn": "Designator"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterValue": "DAC",
+			"filterColumn": "Comment"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterValue": "PGA",
+			"filterColumn": "Comment"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterValue": "SN7",
+			"filterColumn": "Comment"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "PAD"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "_0603MP",
+			"columnName": "Footprint",
+			"columnValue": "0603"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "^805$",
+			"columnName": "Footprint",
+			"columnValue": "0805-CAP"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "^402$",
+			"columnName": "Footprint",
+			"columnValue": "0402-CAP"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Comment",
+			"filterValue": "250mA/100V",
+			"columnValue": "BAT20J",
+			"columnName": "Comment"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterValue": "^RG",
+			"columnName": "Comment"
+		},
+		"actionType": "ChangeElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "^SMA"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Designator",
+			"filterValue": "^F"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Footprint",
+			"filterValue": "(2512|KMR2|1210|CR54|2014|PA05|LLL|0805|FC|DPAK)"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Comment",
+			"filterValue": "(22p|18p|2.2u|15u|470n|17k|LOWLEAKAGE|RED|NMB|P-CH)"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Comment",
+			"filterValue": "(83k|4.7k|22u|4.7u|32.1k)"
+		},
+		"actionType": "DeleteElement"
+	},
+	{
+		"actionType": "ChangeElement",
+		"actionProps": {
+			"filterColumn": "Function",
+			"filterValue": "^RF",
+			"columnName": "Comment",
+			"columnValue": ""
+		}
+	},
+	{
+		"actionProps": {
+			"filterColumn": "Comment",
+			"filterValue": "^$"
+		},
+		"actionType": "DeleteElement"
+	}
+]
